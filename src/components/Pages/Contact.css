@@ -1,0 +1,62 @@
+.contact-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #fff; /* Text color */
+    background-color: #001f3f; /* Semi-transparent background */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  .contact-container h1 {
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+  }
+  
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-container label {
+    margin-top: 15px; /* Add space above labels */
+    font-weight: bold; /* Make labels bold */
+  }
+  
+  .contact-container input,
+  .contact-container textarea {
+    padding: 12px; /* Increased padding for better sizing */
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #001f3f; /* Input background */
+    color: #fff; /* Input text color */
+    font-size: 16px; /* Increased font size */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in width */
+  }
+  
+  .contact-container textarea {
+    min-height: 100px; /* Set a minimum height for the textarea */
+  }
+  
+  .contact-container button {
+    margin-top: 20px;
+    padding: 12px; /* Increased padding */
+    background: #bc4123; /* Button background */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+  }
+  
+  .contact-container button:hover {
+    background: #a33e1e; /* Darken on hover */
+  }
+  
+  /* Style for the thank-you message */
+  .thank-you-message {
+    color: #fff; /* Ensure the message is white */
+    text-align: center; /* Center the message */
+    margin-top: 20px; /* Space above the message */
+  }

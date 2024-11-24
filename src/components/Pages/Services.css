@@ -1,0 +1,76 @@
+/* Services Page Styles */
+.services-container {
+    padding: 40px;
+    background-color: #f8f9fa; /* Light background for contrast */
+    text-align: center; /* Center text */
+}
+
+.services-title {
+    font-size: 2.5rem; /* Large heading */
+    color: #333; /* Dark text color */
+    margin-bottom: 40px; /* Space below heading */
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Space between cards */
+}
+
+.service-card {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Prevent overflow of content */
+    transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+.service-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.service-image {
+    width: 100%; /* Responsive image */
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Cover the area without distortion */
+}
+
+.service-title {
+    font-size: 1.5rem; /* Title font size */
+    color: #007bff; /* Accent color */
+    margin: 20px 0 10px; /* Space above and below title */
+}
+
+.service-description {
+    font-size: 1rem; /* Description font size */
+    color: #666; /* Lighter text color */
+    padding: 0 20px 20px; /* Padding for description */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .services-title {
+        font-size: 2rem; /* Adjust title size for mobile */
+    }
+}
+
+
+
+
+/* Services Page Styles */
+.services-container {
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 40px; /* Adjust padding as necessary */
+    background-color: #f8f9fa; /* Light background for contrast */
+    text-align: center; /* Center text */
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Space between cards */
+    justify-items: center; /* Center items within grid cells */
+}
+
+/* Other existing styles remain unchanged */

@@ -1,0 +1,60 @@
+/* Home.css */
+
+.home-section {
+    position: relative;
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden;
+}
+
+.background-image {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.content h1 {
+    font-size: 48px; /* Main title size */
+    margin: 0;
+}
+
+.content h2 {
+    font-size: 36px; /* Subtitle size */
+    margin: 10px 0;
+}
+
+.content p {
+    font-size: 18px; /* Description size */
+    margin: 20px 0;
+}
+
+.cta-button {
+    background: #ff6347; /* Tomato color */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #e5533d; /* Darker shade on hover */
+}
